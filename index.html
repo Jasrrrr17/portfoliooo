@@ -9,9 +9,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="header">
+    <header data-aos="fade-down" class="header">
       <div class="container">
         <nav class="nav_left">
           <img src="./svg/logo.svg" alt="" />
@@ -29,7 +30,7 @@
     </header>
     <section class="showcase">
       <div class="container">
-        <div class="showcase_left">
+        <div data-aos="fade-up" class="showcase_left">
           <h3>Hi, I am</h3>
           <h1>Salimov Jasur</h1>
           <p>Front-end Developer / UI Designer</p>
@@ -39,12 +40,12 @@
             <img src="./svg/linkedin.svg" alt="" />
           </div>
         </div>
-        <div class="showcase_right">
+        <div data-aos="fade-up" class="showcase_right">
           <img src="./img/showcaser.png" alt="" />
         </div>
       </div>
     </section>
-    <section class="perries">
+    <section data-aos="fade-right" class="perries">
       <div class="container">
         <h3>IT BERRIES</h3>
         <p>
@@ -64,7 +65,7 @@
     </section>
     <section class="about">
       <div class="container">
-        <div class="about_title">
+        <div data-aos="fade-up" class="about_title">
           <h2>ABOUT ME</h2>
           <p>
             Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem
@@ -74,7 +75,7 @@
           <h5>EXPLORE</h5>
           <img src="./img/separator.png" alt="" />
         </div>
-        <div class="about_cards">
+        <div data-aos="fade-up" class="about_cards">
           <div class="about_card">
             <h3>DESIGN</h3>
             <p>
@@ -92,7 +93,7 @@
             </p>
           </div>
         </div>
-        <div class="about_cards2">
+        <div data-aos="fade-up" class="about_cards2">
           <div class="about_card">
             <h3>MAINTENANCE</h3>
             <p>
@@ -110,18 +111,18 @@
     <section class="skills">
       <div class="container">
         <div class="skills_title">
-          <h1>SKILLS</h1>
+          <h1 data-aos="fade-up">SKILLS</h1>
           <h2>USING NOW:</h2>
         </div>
         <div class="skills_cards">
-          <img src="./svg/html.svg" alt="" />
-          <img src="./svg/css.svg" alt="" />
-          <img src="./svg/sass.svg" alt="" />
-          <img src="./svg/js.svg" alt="" />
-          <img src="./svg/react.svg" alt="" />
-          <img src="./svg/bootstrap.svg" alt="" />
-          <img src="./svg/git.svg" alt="" />
-          <img src="./svg/figma.svg" alt="" />
+          <img data-aos="fade-up" src="./svg/html.svg" alt="" />
+          <img data-aos="fade-up" src="./svg/css.svg" alt="" />
+          <img data-aos="fade-up" src="./svg/sass.svg" alt="" />
+          <img data-aos="fade-up" src="./svg/js.svg" alt="" />
+          <img data-aos="fade-up" src="./svg/react.svg" alt="" />
+          <img data-aos="fade-up" src="./svg/bootstrap.svg" alt="" />
+          <img data-aos="fade-up" src="./svg/git.svg" alt="" />
+          <img data-aos="fade-up" src="./svg/figma.svg" alt="" />
         </div>
       </div>
     </section>
@@ -129,16 +130,20 @@
       <div class="container">
         <div class="wrapper_footer">
           <img src="./svg/top.svg" alt="" />
-          <h3>BACK TO TOP</h3>
+          <h3 data-aos="fade-up">BACK TO TOP</h3>
           <div class="footer_img">
-            <img src="./svg/fb.svg" alt="" />
-            <img src="./svg/in.svg" alt="" />
-            <img src="./svg/inst.svg" alt="" />
-            <img src="./svg/email.svg" alt="" />
+            <img data-aos="fade-up" src="./svg/fb.svg" alt="" />
+            <img data-aos="fade-up" src="./svg/in.svg" alt="" />
+            <img data-aos="fade-up" src="./svg/inst.svg" alt="" />
+            <img data-aos="fade-up" src="./svg/email.svg" alt="" />
           </div>
-          <p>@2020 Tomasz Gajda All Rights Reserved.</p>
+          <p data-aos="fade-up">@2020 Tomasz Gajda All Rights Reserved.</p>
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
