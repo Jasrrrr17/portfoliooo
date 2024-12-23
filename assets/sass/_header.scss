@@ -1,0 +1,54 @@
+.header > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.header {
+  i {
+    display: none;
+    font-size: 40px;
+  }
+  margin-bottom: 100px;
+  .nav_right {
+    button {
+      border: 4px solid #fff;
+      border-radius: 30px;
+      width: 147px;
+      height: 46px;
+      background: #000;
+      font-weight: 700;
+      font-size: 15px;
+      text-align: center;
+      color: #fff;
+      &:hover {
+        background-color: #fff;
+        color: #000;
+        border: 4px solid #000;
+      }
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 33px;
+      li {
+        a {
+          font-weight: 700;
+          font-size: 17px;
+          text-align: center;
+          color: #000;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 900px) {
+  .header {
+    .nav_right {
+      display: none;
+    }
+    i {
+      display: block;
+    }
+  }
+}
